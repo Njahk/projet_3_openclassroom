@@ -6,8 +6,11 @@
 	box-sizing: border-box;
 }
 
+		/*header*/
+
 body{
 	margin: 0px;
+	font-family: "roboto", sans-serif;
 }
 
 header{
@@ -15,4 +18,52 @@ header{
 	text-align: center;
 	box-shadow: 0 3px 3px gray;
 	padding: 5px;
+	margin: 0;
+	position: relative;
 }
+
+		/*paris belleville*/
+
+main .belleville{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 10px;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding: 5px;
+}
+
+main .belleville i{
+	font-size: 20px;
+}
+
+main .explore{
+	text-align: center;
+	margin-top: 35px;
+}
+
+.explore h2{
+	font-size: 50px;
+}
+
+.explore p{
+	font-size: 23px;
+}
+
+.explore button{
+	font-size: 20px;
+	border: none;
+	border-radius: 34px;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 4px 4px 5px #f3f3;
+	transition: transform;
+	background-image: linear-gradient(to top,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9));
+}
+
+.explore button:hover{
+	transform: scale(1.2);
+	opacity: 0.9;
+}
+
