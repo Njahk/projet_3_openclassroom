@@ -125,7 +125,6 @@ main .explore{
 }
 
 .info span{
-	border: 1px solid red;
 	width: 30px;
 	height: 30px;
 	border-radius: 25px;
@@ -138,4 +137,61 @@ main .explore{
 	left: -15px;
 }
 
+				/*partie restaurant*/
 
+
+.restau img{
+	height: 22rem;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 22px 22px 0 0px;
+}
+
+.restau{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	grid-gap: 25px;
+	background-color: #f6f6f6;
+	margin: 80px 0 30px;
+}
+
+.cart{
+	position: relative;
+	flex-basis: 45%;
+	border-radius: 20px;
+	justify-content: space-around;
+	background-color: white;
+}
+
+.restau h2{
+	flex-basis: 100%;
+	padding-left: 60px;
+	justify-content: space-between;
+}
+
+.cart h3{
+	padding-left: 10px;
+	margin: 10px;
+}
+
+.cart p{
+	padding-left: 10px;
+	margin: 10px;
+}
+
+.nouveau-menu{
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	background-color: #99E2D0;
+	padding: 5px 10px;
+}
+
+.mention-jaim{
+	position: absolute;
+	right: 40px;
+	top: 22.8rem;
+	font-size: 22px;
+}
