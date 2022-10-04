@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:ital@0;1 & famille= Roboto:ital,wght@0,400;0,500;1,400;1,500 &family= Shrikhand & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&family=Shrikhand&display=swap');
 
-@import url('https://fonts.googleapis.com/css2? family= Shrikhand & display=swap');
 
 *{
 	box-sizing: border-box;
@@ -189,9 +188,44 @@ main .explore{
 	padding: 5px 10px;
 }
 
-.mention-jaim{
+.cart .fa-solid{
 	position: absolute;
 	right: 40px;
 	top: 22.8rem;
-	font-size: 22px;
+	font-size: 30px;	
+	color: transparent;		
+	-webkit-background-clip: text;
 }
+
+.cart .fa-regular{
+	position: absolute;
+	right: 40px;
+	top: 22.8rem;
+	font-size: 30px;
+}
+
+.cart .fa-solid:hover{
+	background-image: linear-gradient(to top,rgba(255, 121, 218, 1),rgba(147, 86, 220, 1));
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+
+			/*footer*/
+
+
+footer{
+	background-color: #353535;
+	color: white;
+	padding: 1em 2em;
+}
+
+footer h2{
+	font-family: shrikhand;
+	margin: 0;
+}
+
+
+
+
+
