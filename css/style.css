@@ -148,20 +148,21 @@ main .explore{
 
 .restau{
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	flex-wrap: wrap;
-	grid-gap: 25px;
 	background-color: #f6f6f6;
-	margin: 80px 0 30px;
+	margin: 80px 0 80px;
+	height: 65rem;
 }
 
 .cart{
 	position: relative;
 	flex-basis: 45%;
 	border-radius: 20px;
-	justify-content: space-around;
 	background-color: white;
+	box-shadow: 5px 5px 10px lightgray;
+	margin-top: -55px;
 }
 
 .restau h2{

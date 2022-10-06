@@ -1,0 +1,9 @@
+
+.info ol{
+	flex-direction: column;
+}
+
+.info li{
+	width: 80%;
+	margin: auto;
+}
