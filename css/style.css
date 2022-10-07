@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+a{
+	text-decoration: none;
+}
+
 		/*header*/
 
 body{
@@ -79,15 +83,15 @@ main .explore{
 
 .info ol{
 	display: flex;
+	justify-content: center;
 	grid-gap: 50px;
-	flex-wrap: wrap;
 	list-style: none;
 }
 
 .info li{
 	position: relative;
 	background-color: #f6f6f6;
-	padding: 35px;
+	padding: 35px 86px;
 	border: none;
 	border-radius: 35px;
 	flex-grow: 1;
@@ -164,6 +168,9 @@ main .explore{
 	box-shadow: 5px 5px 10px lightgray;
 	margin-top: -55px;
 }
+.cart:hover{
+	transform: scale(1.1);
+}
 
 .restau h2{
 	flex-basis: 100%;
@@ -211,6 +218,10 @@ main .explore{
 	transform: scale(1.2);
 }
 
+.cart a{
+	color: black;
+}
+
 
 			/*footer*/
 
@@ -228,6 +239,10 @@ footer h2{
 
 footer .fa-solid{
 	padding-right: 10px;
+}
+
+footer a{
+	color: white;
 }
 
 
