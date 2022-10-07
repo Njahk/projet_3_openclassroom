@@ -1,0 +1,20 @@
+.info li{
+	margin: 0;
+	width: 95%;
+}
+
+.restau{
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.cart{
+	flex-basis: 88%;
+	margin-bottom: 5em;
+}
+
+.restau h2{
+	    padding: 1em 2em 3em;
+}
+
+
