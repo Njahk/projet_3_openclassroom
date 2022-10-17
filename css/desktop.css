@@ -1,0 +1,12 @@
+.info ol{
+	flex-direction: initial;
+}
+
+.cart{
+	flex-basis: 45%;
+	margin-bottom: 5em;
+}
+
+.restau h2{
+	    padding: 1em 2em 3em;
+}

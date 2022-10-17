@@ -86,20 +86,24 @@ main .explore{
 	justify-content: center;
 	grid-gap: 50px;
 	list-style: none;
+	flex-direction: column;
+	margin-top: 3em;
 }
 
 .info li{
 	position: relative;
 	background-color: #f6f6f6;
-	padding: 35px 86px;
+	padding: 35px 56px;
 	border: none;
 	border-radius: 35px;
 	flex-grow: 1;
 	box-shadow: 10px 10px 10px #f2f2f2;
+	width: 95%;
+	margin-right: 2em;
 }
 
 .info h2{
-	padding-left: 25px;
+	padding-left: 2em;
 }
 
 .info{
@@ -157,16 +161,17 @@ main .explore{
 	flex-wrap: wrap;
 	background-color: #f6f6f6;
 	margin: 80px 0 80px;
-	height: 60rem;
+	margin-bottom: 0;
 }
 
 .cart{
 	position: relative;
-	flex-basis: 45%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 5px 5px 10px lightgray;
 	margin-top: -55px;
+	flex-basis: 88%;
+	margin-bottom: 5em;
 }
 .cart:hover{
 	transform: scale(1.1);
@@ -200,8 +205,9 @@ main .explore{
 	position: absolute;
 	right: 40px;
 	top: 18.8rem;
-	font-size: 30px;	
-	color: transparent;		
+	font-size: 30px;
+	color: transparent;	
+	opacity: 0;	
 	-webkit-background-clip: text;
 }
 
@@ -215,7 +221,7 @@ main .explore{
 .cart .fa-solid:hover{
 	background-image: linear-gradient(to top,rgba(255, 121, 218, 1),rgba(147, 86, 220, 1));
 	opacity: 1;
-	transform: scale(1.2);
+	transition: opacity 1s;
 }
 
 .cart a{
