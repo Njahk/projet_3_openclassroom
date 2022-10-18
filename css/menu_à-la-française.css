@@ -218,12 +218,6 @@ article:hover p{
 	animation: apparition 0.8s 1.8s ease-out forwards;
 }
 
-.menu .animation-10{
-	opacity: 0;
-	transform: translateY(-30px);
-	animation: apparition 0.8s 2s ease-out forwards;
-}
-
 .menu-prix{
 	margin: 45px 10px 0 auto;
 }
