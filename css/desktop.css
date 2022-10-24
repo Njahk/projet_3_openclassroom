@@ -1,3 +1,14 @@
+/**
+ * fichier desktop.css
+ * 
+ * fichier contenant les propriétés css spécifiques au desktop (mobil-first)
+ * 
+ * @author: njah kevin;
+ * @version: 1.0;
+ * @date: 2022-08;
+ */
+
+
 .info ol{
 	flex-direction: initial;
 }

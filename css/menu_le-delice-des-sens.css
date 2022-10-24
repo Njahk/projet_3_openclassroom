@@ -1,3 +1,14 @@
+/**
+ * fichier menu_le-delice-des-sens.css
+ * 
+ * fichier contenant les propriétés css générales et spécifiques au menu_le-delice-des-sens (menu_le-delice-des-sens first)
+ * 
+ * @author: njah kevin;
+ * @version: 1.0;
+ * @date: 2022-10;
+ */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&family=Shrikhand&display=swap');
 
 
@@ -224,18 +235,39 @@ article:hover p{
 
 .menu button{
 	flex-basis: 14%;
-	padding: 2em 7em;
+	padding: 1.5em 5em;
 	margin: 3em auto;
-	border-radius: 36px;
+	border-radius: 42px;
 	border: none;
-	background-image: linear-gradient(to top,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9));
-}
-
-.btn {
 	color: white;
 	font-size: 20px;
+	cursor: pointer;
+	background-image: linear-gradient(to top,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9));
 }
 
 .menu button:hover{
 	transform: scale(1.1);
+}
+
+
+			/*footer*/
+
+
+footer{
+	background-color: #353535;
+	color: white;
+	padding: 1em 2em;
+}
+
+footer h2{
+	font-family: shrikhand;
+	margin: 0;
+}
+
+footer .fa-solid{
+	padding-right: 10px;
+}
+
+footer a{
+	color: white;
 }
