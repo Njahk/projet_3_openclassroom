@@ -168,13 +168,6 @@ article:hover p{
 	width: 250px;
 }
 
-@keyframes apparition{
-	100%{
-		opacity: 1;
-		transform: none;
-	}
-}
-
 .menu .animation-1{
 	opacity: 0;
 	transform: translateY(-30px);
@@ -277,3 +270,15 @@ footer .fa-solid{
 footer a{
 	color: white;
 }
+
+@keyframes apparition {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }

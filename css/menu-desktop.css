@@ -1,7 +1,7 @@
 /**
- * menu_à-la-française-desktop.css
+ * menu_La-note-enchanté-desktop.css
  * 
- * fichier contenant les propriétés css spécifiques au menu_à-la-française-desktop (menu_à-la-française-desktop first)
+ * fichier contenant les propriétés css spécifiques au menu_La-note-enchanté-desktop (menu_La-note-enchanté-desktop first)
  * 
  * @author: njah kevin;
  * @version: 1.0;
@@ -56,17 +56,22 @@
 .menu .animation-7{
 	opacity: 0;
 	transform: translateY(-30px);
-	animation: apparition 0.8s 0.8s ease-out forwards;
+	animation: apparition 0.8s 0.5s ease-out forwards;
 }
 
 .menu .animation-8{
 	opacity: 0;
 	transform: translateY(-30px);
-	animation: apparition 0.8s 0.8s ease-out forwards;
+	animation: apparition 0.8s 0.6s ease-out forwards;
 }
 
 .menu .animation-9{
 	opacity: 0;
 	transform: translateY(-30px);
-	animation: apparition 0.8s 0.8s ease-out forwards;
+	animation: apparition 0.8s 0.6s ease-out forwards;
 }
+
+.menu .animation-10{
+	opacity: 0;
+	transform: translateY(-30px);
+	animation: apparition 0.8s 0.6s ease-out forwards;
