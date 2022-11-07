@@ -1,7 +1,7 @@
 /**
  * fichier mobil-first.css
  * 
- * fichier contenant les propriétés css générales et spécifiques au mobil-firs (desktop first)
+ * fichier contenant les propriétés css générales et spécifiques au mobile-firs (mobile-first)
  * 
  * @author: njah kevin;
  * @version: 1.0;
@@ -20,12 +20,46 @@ a{
 	text-decoration: none;
 }
 
-		/*header*/
-
 body{
 	margin: 0px;
 	font-family: "roboto", sans-serif;
 }
+
+			/*chargement*/
+
+.chargement{
+	position: fixed;
+	display: grid;
+	place-items: center;
+	background-color: #ffffff;
+	height: 100vh;
+	inset: 0;
+	z-index: 1;
+	opacity: 0.7;
+	animation: disparu 0.05s 3s forwards;
+	transform-origin: bottom;
+}
+
+.chargement i{
+	animation: spin 1.5s infinite linear;
+	font-size: 35px;
+}
+
+@keyframes disparu{
+	to{
+		transform: scale(0);
+	}
+}
+
+@keyframes spin{
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+
+
+			/*header*/
 
 header{
 	font-family: shrikhand;
@@ -74,7 +108,7 @@ main .explore{
 	padding: 20px;
 	margin-top: 20px;
 	box-shadow: 4px 4px 5px #f3f3;
-	transition: transform;
+	transition: transform 200s;
 	cursor: pointer;
 	background-image: linear-gradient(to top,rgba(147, 86, 220, 0.9),rgba(255, 121, 218, 0.9));
 }
@@ -82,6 +116,7 @@ main .explore{
 .explore button:hover{
 	transform: scale(1.2);
 	opacity: 0.9;
+	box-shadow: 4px 4px 6px 10px #f3f3;
 }
 
 .explore{
@@ -186,14 +221,12 @@ main .explore{
 	flex-basis: 88%;
 	margin-bottom: 5em;
 }
-.cart:hover{
-	transform: scale(1.1);
-}
 
 .restau h2{
 	flex-basis: 100%;
 	padding-left: 60px;
 	justify-content: space-between;
+	margin: 0.5em 0 3em -2em;
 }
 
 .cart h3{
@@ -215,16 +248,14 @@ main .explore{
 }
 
 .cart .fa-solid{
-	position: absolute;
-	right: 40px;
-	top: 18.8rem;
-	font-size: 30px;
 	color: transparent;	
 	opacity: 0;	
 	-webkit-background-clip: text;
+	background-image: linear-gradient(to top,rgba(255, 121, 218, 1),rgba(147, 86, 220, 1));
+	transition: opacity 1s;
 }
 
-.cart .fa-regular{
+.cart .fa-heart{
 	position: absolute;
 	right: 40px;
 	top: 18.8rem;
